@@ -55,9 +55,58 @@ section div h2 {
 .section-body {
   margin-left: 1em;
   margin-right: 3em;
+  clear: both;
 }
 
 .section-body p {
   padding-bottom: 1em;
   margin-top: .1em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .section-letter,
+  .section-icon {
+    padding-top: 1.2em;
+    width: 45%;
+  }
+
+  .section-letter {
+    padding-left: 2em;
+  }
+
+  .section-icon {
+    padding-right: 2em;
+  }
+
+  .section-body {
+    margin-right: 1.3em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .section-body {
+    clear: none;
+    padding: .4em;
+    margin-left: 8.5em;
+    margin-right: 8.5em;
+    padding-top: 1.3em;
+  }
+
+  .section-letter,
+  .section-icon {
+    padding-top: 1.2em;
+    width: 18%;
+  }
+
+  .section-body p {
+    margin: 0;
+  }
 }
