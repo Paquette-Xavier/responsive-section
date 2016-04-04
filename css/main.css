@@ -21,6 +21,21 @@ body {
   margin: 0;
 }
 
+section {
+  margin: 0;
+  background-color: #e5c30a;
+  width: 100%;
+  overflow: hidden;
+}
+
+section h2 {
+  font-size: 100%;
+}
+
+section p {
+  font-size: 100%;
+}
+
 .wrapper {
   background-color: #e5c30a;
   max-width: 45em;
@@ -109,4 +124,32 @@ section div h2 {
   .section-body p {
     margin: 0;
   }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  section {
+    padding: 1em;
+  }
+
+  .section-letter,
+  .section-icon {
+    width: 20%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
 }
